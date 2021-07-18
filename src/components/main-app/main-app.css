@@ -1,0 +1,64 @@
+.main-app-container {
+	height: 100%;
+	box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
+	background: #fff;
+	margin: 4rem 0;
+	padding: 4rem;
+}
+
+.main-heading {
+	text-align: center;
+	color: #666666;
+	font-weight: none;
+}
+
+#input-button-wrapper {
+	text-align: center;
+	width: 100%;
+}
+
+.input-area {
+	box-sizing: border-box;
+	width: 100%;
+	border: 2px solid black;
+	height: 4rem;
+	font-size: xx-large;
+	font-weight: bolder;
+}
+
+.add-button {
+	width: 100%;
+	height: 2.5rem;
+	margin: 2rem 0;
+	color: white;
+	background: black;
+	font-size: x-large;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+#type-task-button-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.type-task-button {
+	flex: 1 1 50%;
+	border-width: 1px;
+	background: none;
+	height: 2rem;
+	width: 6rem;
+	cursor: pointer;
+	font-size: large;
+	text-decoration: underline;
+}
+
+.normal-type-task-button {
+	border: 1px solid #d3d3d3;
+}
+
+.selected-type-task-button {
+	border: 1px solid #4d4d4d;
+}
